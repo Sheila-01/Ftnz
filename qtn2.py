@@ -3,7 +3,7 @@
 def Even(*number):                                           #creating a function with multiple arguments
     num = []
     for i in number:                                                    #looping through the numbers
-        while i % 2 == 0:                                    #if number when divided by 2 remainder = 0
+        for i % 2 == 0:                                    #if number when divided by 2 remainder = 0
             num.append(i)
             return num
 
