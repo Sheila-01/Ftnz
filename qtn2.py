@@ -5,7 +5,7 @@ def Even(*number):                                           #creating a functio
     for i in number:                                                    #looping through the numbers
         while i % 2 == 0:                                    #if number when divided by 2 remainder = 0
             num.append(i)
-            return i
+            return num
 
 print("The Even numbers are:", Even(3,5,67,89,90,12,32,44,11)) 
     
